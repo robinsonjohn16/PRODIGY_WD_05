@@ -1,0 +1,93 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Poppins;
+}
+body {
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+   height: 100vh;
+   font-size: 10px;
+}
+
+.container {
+   height: 40%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+   background-color: #98d1f0;
+   border-radius: 0px 0px 2em 2em;
+}
+h1 {
+   font-size: 3.5em;
+   font-weight: 600;
+}
+
+#locationInput {
+   position: absolute;
+   bottom: -1em;
+   left: 30em;
+   height: 2.5em;
+   width: 32em;
+   text-indent: 0.4em;
+   border-radius: 5px 0px 0px 5px;
+   border: 1px solid black;
+}
+#Locationbtn {
+   position: absolute;
+   bottom: -1em;
+   width: 6em;
+   border-radius: 0px 5px 5px 0px;
+   height: 2.6em;
+   background-color: #00456b;
+   color: #fff;
+   border: 1px solid black;
+   left: 62.1em;
+}
+#Locationbtn:hover {
+   cursor: pointer;
+}
+
+.weatherInfo {
+   height: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.infoContainer {
+   border: 1px solid black;
+   border-radius: 10px;
+   width: 30em;
+   height: 20em;
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+   flex-direction: column;
+}
+.locationDiv,
+.celsiusDiv {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 2em;
+}
+.locationName {
+   font-size: 2em;
+}
+.locationAnswer {
+   font-size: 2em;
+   margin-left: 1em;
+}
+.celsius {
+   margin-top: 1em;
+   font-size: 3em;
+}
+
+.celsiusSymbol {
+   margin-top: 1em;
+   margin-left: 1.4em;
+   font-size: 2em;
+}

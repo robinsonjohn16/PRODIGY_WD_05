@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Wheather App</title>
+      <link rel="stylesheet" href="./style.css" />
+      <!-- Font -->
+      <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+         rel="stylesheet"
+      />
+   </head>
+   <body>
+      <div class="container">
+         <div class="containerTop">
+            <h1>Weather Finder</h1>
+         </div>
+         <div class="containerBottom">
+            <input
+               type="text"
+               name="location"
+               id="locationInput"
+               placeholder="Search City"
+            />
+            <button type="button" id="Locationbtn">Search</button>
+         </div>
+      </div>
+      <div class="weatherInfo">
+         <div class="infoContainer">
+            <div class="locationDiv">
+               <div class="locationName">Location :</div>
+               <div class="locationAnswer">Your City</div>
+            </div>
+            <div class="celsiusDiv">
+               <div class="celsius">Loading...</div>
+               <div class="celsiusSymbol">&#8451;</div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="./script.js"></script>
+</html>
